@@ -13,6 +13,7 @@ def main():
         plt.grid(True)
         plt.xlabel(r"$Time\longrightarrow$")
         plt.ylabel(r"$n\longrightarrow $")
+        plt.savefig("radioactive_decay.jpg")
     plt.show()
 
 def radio_active_decay(n_0,t_0,lamda):
